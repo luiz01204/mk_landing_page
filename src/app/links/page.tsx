@@ -24,7 +24,7 @@ export default function LinksPage() {
       {/* Botões */}
       <div className="w-full max-w-sm flex flex-col gap-4">
         <a
-          href="https://seusite.com.br" // substitua pela URL do seu site
+          href="https://seusite.com.br"
           target="_blank"
           rel="noopener noreferrer"
           className="bg-white text-black flex items-center justify-center gap-3 py-3 rounded-lg font-semibold hover:bg-red-700 hover:text-white transition"
@@ -34,7 +34,7 @@ export default function LinksPage() {
         </a>
 
         <a
-          href="https://wa.me/556799998800?text=Olá vim pelo seu perfil e quero mais informações"
+          href="https://wa.me/5548999572643?text=Olá vim pelo seu perfil e quero mais informações"
           target="_blank"
           rel="noopener noreferrer"
           className="bg-green-500 text-white flex items-center justify-center gap-3 py-3 rounded-lg font-semibold hover:bg-green-600 transition"
@@ -44,7 +44,7 @@ export default function LinksPage() {
         </a>
 
         <a
-          href="https://g.co/kgs/ssTPucS" // substitua pela URL do Google Meu Negócio
+          href="https://g.co/kgs/ssTPucS"
           target="_blank"
           rel="noopener noreferrer"
           className="bg-blue-600 text-white flex items-center justify-center gap-3 py-3 rounded-lg font-semibold hover:bg-blue-700 transition"

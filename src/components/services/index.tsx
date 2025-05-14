@@ -56,7 +56,7 @@ export default function Services() {
                     </div>
                     <a
                       target="_blank"
-                      href={`https://wa.me/556799998800?text=Olá vim pelo site e gostaria de mais informações sobre ${title}`}
+                      href={`https://wa.me/5548999572643?text=Olá vim pelo site e gostaria de mais informações sobre ${title}`}
                       className="mt-4 flex items-center gap-3 hover:bg-red-500 px-5 py-2 rounded-md duration-300 font-medium border-t border-gray-700 pt-4"
                     >
                       <FaWhatsapp className="w-6 h-6" />

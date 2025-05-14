@@ -46,8 +46,9 @@ export default function About() {
                         {/* Botão centralizado com conteúdo alinhado */}
                         <div className="w-full flex justify-center md:justify-start mt-6">
                             <a 
+                                target="_blank"
                                 className="bg-green-500 text-white font-semibold flex w-65 gap-2 rounded border-none p-2 justify-center cursor-pointer hover:bg-green-600"
-                                href="https://wa.me/556799998800?text=Olá vim pelo site e gostaria de mais informações..." 
+                                href="https://wa.me/5548999572643?text=Olá vim pelo site e gostaria de mais informações..." 
                             >
                                 <FaWhatsapp size={24} />
                                 Faça seu orçamento  

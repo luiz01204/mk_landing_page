@@ -9,7 +9,7 @@ export default function Footer() {
         {/* Logo */}
         <div className="flex flex-col  justify-center items-center md:items-start">
           <Image
-            src="/logo_mk_fundo.jpg" // coloca o caminho da sua logo
+            src="/logo_mk_fundo.jpg"
             alt="Logo MK Estética Automotiva"
             width={150}
             height={150}
@@ -23,7 +23,7 @@ export default function Footer() {
           <h3 className="text-lg font-semibold">Nos siga:</h3>
           <div className="flex gap-4">
             <a
-              href="https://www.instagram.com/sua_pagina"
+              href="https://www.instagram.com/mkstudioautomotivo_"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-pink-500 transition-colors"
@@ -39,7 +39,7 @@ export default function Footer() {
               <FaFacebookF size={24} />
             </a>
             <a
-              href="https://wa.me/556799998800?text=Olá vim pelo site e gostaria de mais informações..."
+              href="https://wa.me/5548999572643?text=Olá vim pelo site e gostaria de mais informações..."
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-green-500 transition-colors"
