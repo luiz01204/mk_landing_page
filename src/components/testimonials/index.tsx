@@ -9,7 +9,18 @@ const testimonials = [
   {
     photo: "/google_2.png",
   },
-  // Adiciona mais se quiser
+  {
+    photo: "/google_2.png",
+  },
+  {
+    photo: "/google_2.png",
+  },
+  {
+    photo: "/google_2.png",
+  },
+  {
+    photo: "/google_2.png",
+  },
 ]
 
 export default function Testimonials() {
