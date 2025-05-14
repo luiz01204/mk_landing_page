@@ -32,6 +32,9 @@ export const metadata: Metadata = {
   creator: "MK Studio Automotivo",
   publisher: "MK Studio Automotivo",
   robots: "index, follow",
+  icons: {
+    icon: "/favicon.ico", // ou "/favicon.png" se estiver usando PNG
+  },
   openGraph: {
     title: "MK Studio Automotivo | Estética Automotiva em Criciúma - SC",
     description: "Transforme seu carro com polimento, vitrificação, e lavação detalhada. Qualidade e dedicação em cada detalhe.",
@@ -65,9 +68,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-BR">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
+      <head>
+        <link rel="icon" href="/favicon.ico" />
+      </head>
+      <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
         {children}
         <SpeedInsights />
       </body>

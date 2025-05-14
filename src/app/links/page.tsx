@@ -5,14 +5,14 @@ import Image from "next/image";
 
 export default function LinksPage() {
   return (
-    <main className="min-h-screen bg-slate-900 flex flex-col items-center justify-center text-white px-4 py-10">
+    <main className="min-h-screen bg-[#1e293b] flex flex-col items-center justify-center text-white px-4 py-10">
       {/* Logo ou avatar */}
       <div className="mb-6">
         <Image
           src="/logo_mk_fundo.jpg"
           alt="Logo MK Estética Automotiva"
-          width={120}
-          height={120}
+          width={150}
+          height={150}
           className="rounded-full border-4 border-red-700"
         />
       </div>
