@@ -27,7 +27,7 @@ export default function Testimonials() {
               href="https://g.co/kgs/ssTPucS"
               target="_blank"
               rel="noopener noreferrer"
-              className="bg-[#1e293b] rounded-2xl p-4 flex justify-center items-center"
+              className="bg-[#1e293b] rounded-2xl p-2 flex justify-center items-center"
             >
               <Image
                 src={item.photo}
