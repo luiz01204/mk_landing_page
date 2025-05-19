@@ -9,7 +9,7 @@ export default function Hero() {
                 src="/hero.jpg"
                 alt="Foto roda do carro preto."
                 fill
-                className="object-cover z-0" // z-0 pra ficar no fundo
+                className="object-cover z-0"
                 quality={100}
                 priority
             />
@@ -22,7 +22,6 @@ export default function Hero() {
                 <a 
                     target="_blank"
                     href={"https://wa.me/5548999572643?text=Olá vim pelo site e gostaria de mais informações..."}
-
                     className="bg-green-500 text-white font-semibold flex w-65 gap-2 rounded border-none p-2 justify-center cursor-pointer hover:bg-green-600">
                     <FaWhatsapp size={24} />
                     Faça seu orçamento  

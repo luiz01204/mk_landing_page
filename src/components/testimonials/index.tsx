@@ -10,16 +10,22 @@ const testimonials = [
     photo: "/google_2.png",
   },
   {
-    photo: "/google_2.png",
+    photo: "/google_3.png",
   },
   {
-    photo: "/google_2.png",
+    photo: "/google_4.png",
   },
   {
-    photo: "/google_2.png",
+    photo: "/google_5.png",
   },
   {
-    photo: "/google_2.png",
+    photo: "/google_6.png",
+  },
+  {
+    photo: "/google_7.png",
+  },
+  {
+    photo: "/google_8.png",
   },
 ]
 
@@ -38,7 +44,7 @@ export default function Testimonials() {
               href="https://g.co/kgs/ssTPucS"
               target="_blank"
               rel="noopener noreferrer"
-              className="rounded-2xl p-2 flex justify-center items-center"
+              className="p-2 flex justify-center items-center"
             >
               <Image
                 src={item.photo}

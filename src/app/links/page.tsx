@@ -24,7 +24,7 @@ export default function LinksPage() {
       {/* Botões */}
       <div className="w-full max-w-sm flex flex-col gap-4">
         <a
-          href="https://seusite.com.br"
+          href="https://mkstudioautomotivo.com.br"
           target="_blank"
           rel="noopener noreferrer"
           className="bg-white text-black flex items-center justify-center gap-3 py-3 rounded-lg font-semibold hover:bg-red-700 hover:text-white transition"

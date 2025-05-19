@@ -1,38 +1,83 @@
 "use client"
 
 import useEmblaCarousel from 'embla-carousel-react'
-import { GiCarWheel, GiCarSeat } from "react-icons/gi";
-import { IoCarSport } from "react-icons/io5";
-import { MdLocalCarWash } from "react-icons/md";
+import { GiCarSeat, GiCarWheel } from "react-icons/gi";
+import { IoCarSport, IoSparklesSharp } from "react-icons/io5";
+import { MdLocalCarWash, MdOutlineWaterDrop, MdOutlineAir, MdBuild } from "react-icons/md";
+import { FaSprayCan, FaWind } from "react-icons/fa";
+import { BsStars, BsSnow } from "react-icons/bs";
 import { FaWhatsapp } from 'react-icons/fa'
+import { IoDiamond } from "react-icons/io5";
+import { GiRaceCar } from "react-icons/gi";
+import { IoCarSharp } from "react-icons/io5";
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 
 const services = [
   {
-    title: "Restaurção de couro",
-    description: "Trabalhamos com restauração de couros automotivo.",
-    icon: <GiCarSeat />,
+    title: "Vitrificação de Pintura",
+    description: "Proteção cerâmica que realça o brilho e preserva a pintura por muito mais tempo.",
+    icon: <GiRaceCar />,
   },
   {
-    title: "Polimento automotivo",
-    description: "Polimento para deixar seu carro como novo.",
+    title: "Polimento Técnico",
+    description: "Correção precisa de riscos e imperfeições com brilho profissional refinado.",
     icon: <IoCarSport />,
   },
   {
-    title: "Lavação detalhada",
-    description: "Lavação detalhada, limpeza interna e externa completa e motor.",
+    title: "Polimento Comercial",
+    description: "Brilho rápido e uniforme para valorizar a estética do carro com agilidade.",
+    icon: <BsStars />,
+  },
+  {
+    title: "Polimento de Vidros",
+    description: "Remove manchas e riscos, garantindo vidros mais limpos, seguros e bonitos.",
+    icon: <IoCarSharp />,
+  },
+  {
+    title: "Lavagem Técnica Detalhada",
+    description: "Limpeza interna e externa completa com atenção a cada cantinho do carro.",
     icon: <MdLocalCarWash />,
   },
   {
-    title: "Pintura de pinças de freio",
-    description: "Deixe seu carro do seu jeito, mude a cor das pinças de freio do seu carro.",
+    title: "Pintura de Pinças e Cubos",
+    description: "Estilo esportivo com pintura resistente que transforma o visual das rodas.",
     icon: <GiCarWheel />,
   },
-]
+  {
+    title: "Restauração de Couro",
+    description: "Revitaliza bancos de couro, devolvendo cor, textura e aparência original.",
+    icon: <GiCarSeat />,
+  },
+  {
+    title: "Higienização Interna",
+    description: "Elimina sujeiras e odores, deixando o interior limpo e agradável.",
+    icon: <FaSprayCan />,
+  },
+  {
+    title: "Oxizanitização",
+    description: "Desinfecção com ozônio para purificar o ar e eliminar fungos e bactérias.",
+    icon: <FaWind />,
+  },
+  {
+    title: "Troca do Filtro de Ar Condicionado",
+    description: "Substituição do filtro para garantir ar puro e mais conforto a bordo.",
+    icon: <BsSnow />,
+  },
+  {
+    title: "Enceramento Técnico",
+    description: "Brilho espelhado com proteção durável e toque suave na pintura.",
+    icon: <IoDiamond />,
+  },
+  {
+    title: "Lavagem Técnica do Motor",
+    description: "Limpeza segura do motor, valorizando o visual sem comprometer nada.",
+    icon: <MdBuild />,
+  },
+];
 
 export default function Services() {
+  
   const [emblaRef, emblaApi] = useEmblaCarousel({ loop: true })
-
   const scrollPrev = () => emblaApi?.scrollPrev();
   const scrollNext = () => emblaApi?.scrollNext();
 
