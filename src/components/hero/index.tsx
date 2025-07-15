@@ -15,14 +15,14 @@ export default function Hero() {
             />
 
             {/* Conteúdo por cima */}
-            <div className="flex flex-col gap-6 md:py-20 md:pl-20 justify-center items-center md:justify-start md:items-start h-screen px-4 z-10 relative bg-black opacity-80">
+            <div className="flex flex-col gap-6 h-screen px-4 z-10 relative bg-black bg-opacity-80 justify-center items-center md:items-start md:pl-20 md:justify-center">
                 <h1 className="font-bold text-white text-6xl text-center md:text-start md:text-7xl md:w-1/2 drop-shadow-lg">
                     Estética Automotiva especializada para quem é <span className="text-red-700">Exigente</span> com carro.
                 </h1>
                 <a 
                     target="_blank"
                     href={"https://wa.me/5548999572643?text=Olá vim pelo site e gostaria de mais informações..."}
-                    className="bg-green-500 text-white font-semibold flex w-65 gap-2 rounded border-none p-2 justify-center cursor-pointer hover:bg-green-600">
+                    className="bg-green-500 text-white font-semibold flex w-auto gap-2 rounded border-none p-2 justify-center cursor-pointer hover:bg-green-600">
                     <FaWhatsapp size={24} />
                     Faça seu orçamento  
                 </a>   
