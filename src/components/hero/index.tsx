@@ -18,7 +18,7 @@ export default function Hero() {
             <div className="absolute inset-0 bg-black opacity-80 z-10" />
 
             {/* Conteúdo por cima */}
-            <div className="flex flex-col gap-6 h-screen px-4 z-20 relative justify-center items-center md:items-start md:pl-20 md:justify-center">
+            <div className="flex flex-col gap-6 h-screen px-6 sm:px-8 z-20 relative justify-center items-center md:items-start md:pl-20 md:justify-center">
                 <h1 className="font-bold text-white text-6xl text-center md:text-start md:text-7xl md:w-1/2 drop-shadow-lg">
                     Estética Automotiva especializada para quem é <span className="text-red-700">Exigente</span> com carro.
                 </h1>
