@@ -20,22 +20,7 @@ Projeto de uma landing page moderna e responsiva feita com **Next.js**, focada e
 - Estilo moderno com Tailwind
 - Integração com WhatsApp para contato direto
 
-## 📷 Preview
 
-Acesse o projeto em produção (se tiver deploy):  
-[🔗 Link do site](https://mk-landing-page.vercel.app/)
+## [Conheça o projeto](https://www.mkstudioautomotivo.com.br/)
 
-## 📦 Como rodar localmente
 
-```bash
-# Clone o repositório
-git clone https://github.com/seu-usuario/seu-repo.git
-
-# Acesse a pasta do projeto
-cd seu-repo
-
-# Instale as dependências
-npm install
-
-# Rode o projeto
-npm run dev
