@@ -27,6 +27,9 @@ const testimonials = [
   {
     photo: "/google_8.png",
   },
+  {
+    photo: "/google_9.png",
+  },
 ]
 
 export default function Testimonials() {

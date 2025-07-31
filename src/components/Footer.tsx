@@ -7,7 +7,7 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center md:items-start justify-between gap-8">
         
         {/* Logo */}
-        <div className="flex flex-col  justify-center items-center md:items-start">
+        <div className="flex flex-col justify-center items-center md:items-start">
           <Image
             src="/logo_mk_fundo.jpg"
             alt="Logo MK Estética Automotiva"
@@ -48,6 +48,19 @@ export default function Footer() {
             </a>
           </div>
         </div>
+      </div>
+
+      {/* Assinatura do dev */}
+      <div className="mt-8 pt-4 text-center text-sm text-zinc-400">
+        Desenvolvido por{" "}
+        <a
+          href="https://www.luizmachado.dev.br"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="hover:text-white underline"
+        >
+          Luiz Machado
+        </a>
       </div>
     </footer>
   );
