@@ -32,7 +32,7 @@ export default function FAQSection() {
   return (
     <section className="w-full h-full bg-white pb-12">
       <div className="px-6 py-10 max-w-5xl mx-auto">
-        <h2 className="text-red-600 font-semibold text-4xl mb-10 text-center md:text-center">
+        <h2 className="text-zinc-700 font-semibold text-4xl mb-10 text-center md:text-center">
           Dúvidas Frequentes
         </h2>
 
